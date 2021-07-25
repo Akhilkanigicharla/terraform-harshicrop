@@ -6,8 +6,3 @@ resource "aws_instance" "sample1" {
     "Name" = "EC Demo"
   }
 }
-
-provider "aws" {
-  region  = "us-east-1"
-  profile = "default"
-}
