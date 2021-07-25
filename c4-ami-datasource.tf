@@ -19,7 +19,7 @@ data "aws_ami" "amz_linux2" {
 
   
   filter {
-    name   = "arct-type"
+    name   = "architecture"
     values = ["x86_64"]
   }
 
