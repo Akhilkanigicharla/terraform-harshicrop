@@ -11,9 +11,3 @@ variable "instance_type" {
     
   }
 
-variable "instance_keypair" {
-    description = "ppy key value "
-    type = string
-    default = "terraform-key"
-  
-}
