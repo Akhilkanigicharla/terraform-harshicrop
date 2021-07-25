@@ -9,7 +9,3 @@ resource "aws_instance" "sample" {
   }
 }
 
-provider "aws" {
-  region  = "us-east-1"
-  profile = "default"
-}
